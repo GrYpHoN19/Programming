@@ -1,0 +1,25 @@
+#include<stdio.h>
+int input(int *a,int *b)
+{
+ printf("Enter the two numbers\n");
+ scanf("%d%d",a,b);
+ }
+ int add(int a, int b)
+	{
+	int x;   
+	x=a+b;
+	return x;
+}
+ void output(int x)
+{
+       	printf("the addition is %d",x);	
+}
+ int main()
+{
+   int m,n,c;
+   input(&m,&n);
+   c=add(m,n);
+   output(c);
+}
+
+   
