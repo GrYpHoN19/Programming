@@ -12,7 +12,7 @@ int input(int *a,int *b)
 }
  void output(int x)
 {
-       	printf("the addition is %d",x);	
+       	printf("the sum is %d",x);	
 }
  int main()
 {
